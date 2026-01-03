@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak | Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Portofolio</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="project.html">Karya & Project</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html">Kontak</a>
+    </nav>
+</header>
+
+<section class="contact">
+    <div class="contact-container">
+
+        <!-- FORM -->
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+
+            <input type="text" id="nama" placeholder="Masukkan nama">
+            <input type="email" id="email" placeholder="Email kamu">
+            <textarea id="pesan" placeholder="Tulis pesan..."></textarea>
+
+            <button onclick="kirimPesan()">Kirim Pesan</button>
+        </div>
+
+        <!-- INFO KONTAK -->
+        <div class="contact-info">
+            <h3>Hubungi Saya</h3>
+
+            <a href="https://instagram.com/_dhasanaa" target="_blank" class="info-card">
+                <span>📸</span>
+                <div>
+                    <strong>Instagram</strong>
+                    <p>@_dhasanaa</p>
+                </div>
+            </a>
+
+            <a href="https://wa.me/6285788141463" target="_blank" class="info-card">
+                <span>💬</span>
+                <div>
+                    <strong>WhatsApp</strong>
+                    <p>+62 857-8814-1463</p>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<script>
+function kirimPesan() {
+    alert("Pesan berhasil dikirim! (simulasi)");
+}
+</script>
+
+<footer>
+    <p>© 2025 Portfolio-Dinna</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
